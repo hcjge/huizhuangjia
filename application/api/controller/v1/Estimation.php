@@ -20,6 +20,7 @@ class Estimation extends BaseController
     {
 
         EstimationService::createEstimationReport($area);
+        print_r('a');
 
     }
 
